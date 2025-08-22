@@ -1,5 +1,8 @@
-let contactBtn = document.getElementById('contactBtn');
+const contactBtn = document.getElementById('contactBtn');
+const message = document.getElementById('message');
 
+// action au clic
 contactBtn.addEventListener('click', () => {
-    alert('Merci de me contacter !');
+    message.textContent = "Merci de contacter, je vous réponds rapidement ! ";
+    message.classList.remove('hidden');
 })
