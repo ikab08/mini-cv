@@ -9,40 +9,40 @@
 
   <body>
     <header>
-      <div id="container">
-        <nav>
-          <ul>
-            <li><a href="#presentation">Présentation</a></li>
-            <li><a href="#competence">Compétences</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>        
-      </div>
+      <h1>Mon Mini-CV Interactif</h1>
     </header>
 
     <main>
       <section id="presentation">
+        <h2>Présentation</h2>
         <p>
           Je suis <strong>Khadim IBIKOUNLE</strong>, développeur web passionné.
           Mon objectif est de créer des applications modernes, efficaces et accessibles.
           Actuellement, je me spécialise en <em>JavaScript, Node.js et React</em>.
         </p>
       </section>
-      <section id="competence">
-        <p>
-          Dans mes compétences on peut citer : 
-          <li>HTML5,</li> 
-          <li>CSS3,</li> 
-          <li>Js,</li> 
-          <li>React ...</li>
-        </p>
+
+      <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+          <li>JavaScript moderne (ES6+)</li> 
+          <li>React.js</li> 
+          <li>Node.js & Express</li> 
+          <li>MongoDB</li>
+        </ul>
       </section>
+
       <section id="contact">
+        <h2>Contact</h2>
         <button id="contactBtn">Me contacter</button>
+        <p id="message" class="hidden"></p>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>&copy; 2025 - Mon Mini-CV</p>
+    </footer>
+    
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
